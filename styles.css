@@ -77,9 +77,10 @@ body {
     color: var(--primary-text-color);
     margin-bottom: 15px;
     text-decoration-color: var(--text-decoration-color);
+}
+.contact-info__header:hover {
     text-decoration-line: underline;
 }
-
 .contact-info__sub-header {
     color: var(--secondary-text-color);
     margin-bottom: 30px;
@@ -221,9 +222,20 @@ body {
     margin-bottom: 10px;
 }
 
+
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:#ff9a00;
+    text-decoration: underline;
 }
 
 .additional-info {
